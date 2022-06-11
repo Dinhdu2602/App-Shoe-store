@@ -48,6 +48,7 @@ const MainStack = (props: MainStackProps) => {
         }}>
            <Tabs.Screen name="Profile" component={ProfileScreen} />
            <Tabs.Screen name="Home" component={HomeScreen} />
+           <Tabs.Screen name="Checkout" component={CheckoutScreen} />
        </Tab.Navigator>
     );
 };
